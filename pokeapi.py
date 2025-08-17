@@ -156,15 +156,3 @@ def lightest_pokemon():
             min_weight = poke_data["weight"]
             lightest = poke_data["name"]
     return lightest, min_weight
-
-# Ejemplo de ejecución
-
-if __name__ == "__main__":
-    print("🔥 Pokémon tipo fuego en Kanto:", fire_pokemon_kanto())
-    print("💧 Pokémon tipo agua con altura >10:", water_pokemon_high_height())
-    print("🌱 Cadena evolutiva de Bulbasaur:", evolution_chain("bulbasaur"))
-    print("⚡ Pokémon eléctrico sin evoluciones:", electric_no_evolutions())
-    print("💪 Pokémon con mayor ataque en Johto:", strongest_attack_johto())
-    print("⚡ Pokémon más rápido no legendario:", fastest_non_legendary())
-    print("🌿 Hábitat más común de tipo planta:", common_plant_habitat())
-    print("🏋️ Pokémon más ligero:", lightest_pokemon())
